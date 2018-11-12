@@ -1,11 +1,24 @@
 # IPVanish
 Updated IPVanish.Com Script
+Torrent Edition
 
-The linux script recomended by IPVanish.Com only supports start and stop.
+Updated IPVanish.com script that impliments torrenting VPN automation.
 
-I added "status" so you can check the current ip information/geolocation.
-Information/geolocation also runs when trying to start IPVanish with a VPN already running and when stopping a VPN.
+This version will not allow you to STOP the VPN unless all torrenting software is closed.
 
-Edits are GPL3
-Cooper Frank
-cooper.frank901@gmail.com
+It also verifies the IP change after START is implimented to verify you are protected and ready to torrent.
+
+Just like in the previous verion STATUS can be implimented at any time to check the current IP.
+
+This software checks for: transmission
+                          KTorrent
+                          Titati
+                          Deluge
+                          qBittorrent
+                          Vuze
+                          Frostwire
+                          uTorrent
+Before VPN can disconnect.
+
+Edits by C.B.
+;)
